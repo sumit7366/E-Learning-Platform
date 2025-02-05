@@ -4,7 +4,7 @@
 
 - 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
 - 🎃 Authentication && Authorization with JWT
-- 👾 Job search and job upload 
+- 👾 E-Learning platform 
 
 ### Check this 
 ### Key Features:
