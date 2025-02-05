@@ -1,0 +1,100 @@
+/* .fixedBackground{
+  
+  height:80vh;
+  position:fixed;
+  top:100px;
+} */
+.home {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  height: 62vh;
+  /* Full viewport height */
+  
+  background-image: url('xavier.png');
+  background-size: cover;
+  /* Path to your background image */
+  background-size: cover;
+  /* Ensure the background image covers the whole screen */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent image repetition */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Dark overlay for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+    /* Optional: Rounded corners */
+
+    /* h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    } */
+  }
+
+  .home-content h1 {
+    font-size: 3rem;
+    /* Adjust the size of the main heading */
+    margin-bottom: 20px;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  /* Style for the button */
+  .common-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .common-btn:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+  }
+
+  /* Optional styling for the testimonials section */
+  .Testimonials {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+
+}
